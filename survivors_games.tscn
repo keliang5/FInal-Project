@@ -1,8 +1,14 @@
-[gd_scene load_steps=4 format=3 uid="uid://cwjcuojjpkltw"]
+[gd_scene load_steps=5 format=3 uid="uid://cwjcuojjpkltw"]
 
 [ext_resource type="PackedScene" uid="uid://c1gc76xdtdhy1" path="res://player.tscn" id="1_bp32l"]
 [ext_resource type="PackedScene" uid="uid://cvxdlnpn8k2gl" path="res://pine_tree.tscn" id="2_dm7w5"]
 [ext_resource type="PackedScene" uid="uid://bplt7reqws5x6" path="res://mob.tscn" id="2_n7o1d"]
+
+[sub_resource type="Curve2D" id="Curve2D_5ycli"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -248, -153, 0, 0, 0, 0, 2125, -144, 0, 0, 0, 0, 2140, 1183, 0, 0, 0, 0, -248, -153, 0, 0, 0, 0, -246.005, 1183)
+}
+point_count = 5
 
 [node name="Game" type="Node2D"]
 y_sort_enabled = true
@@ -50,3 +56,10 @@ position = Vector2(1754, 651)
 
 [node name="PineTree8" parent="." instance=ExtResource("2_dm7w5")]
 position = Vector2(669, 980)
+
+[node name="Path2D" type="Path2D" parent="."]
+position = Vector2(-5.37688, 7.55838)
+scale = Vector2(1.00251, 1.0494)
+curve = SubResource("Curve2D_5ycli")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="."]
