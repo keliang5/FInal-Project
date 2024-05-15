@@ -6,9 +6,9 @@
 
 [sub_resource type="Curve2D" id="Curve2D_5ycli"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, -248, -153, 0, 0, 0, 0, 2125, -144, 0, 0, 0, 0, 2140, 1183, 0, 0, 0, 0, -248, -153, 0, 0, 0, 0, -246.005, 1183)
+"points": PackedVector2Array(0, 0, 0, 0, -128.677, -197.256, 0, 0, 0, 0, 2208.46, -209.644, 0, 0, 0, 0, 2185.51, 1131.12, 0, 0, 0, 0, -135.66, 1131.12, 0, 0, 0, 0, -128.677, -187.726, 0, 0, 0, 0, -128.677, -197.256)
 }
-point_count = 5
+point_count = 6
 
 [node name="Game" type="Node2D"]
 y_sort_enabled = true
@@ -26,14 +26,14 @@ offset_bottom = 1079.0
 position = Vector2(946, 574)
 
 [node name="Path2D" type="Path2D" parent="Player"]
-position = Vector2(-951.377, -566.442)
+position = Vector2(-948, -566)
 scale = Vector2(1.00251, 1.0494)
 curve = SubResource("Curve2D_5ycli")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Player/Path2D"]
 unique_name_in_owner = true
-position = Vector2(-248, -153)
-rotation = 0.00379265
+position = Vector2(-128.677, -197.256)
+rotation = -0.00530047
 scale = Vector2(0.997496, 0.952926)
 
 [node name="PineTree" parent="." instance=ExtResource("2_dm7w5")]
