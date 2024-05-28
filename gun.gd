@@ -1,5 +1,6 @@
 extends Area2D
 
+@onready var gun_noise: AudioStreamPlayer = $GunNoise
 
 
 func _physics_process(delta):
@@ -20,4 +21,5 @@ func shoot():
 
 func _on_timer_timeout():
 	shoot()
+	gun_noise.play()
 

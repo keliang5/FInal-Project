@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
 var health = 3
+@onready var mob_hurt: AudioStreamPlayer = $Mob_hurt
 
 @onready var player = get_node("/root/Game/Player")
 
@@ -16,6 +17,7 @@ func _physics_process(delta):
 func take_damage():
 	health -=1
 	%Slime.play_hurt()
+	mob_hurt.play()
 	
 	if health == 0:
 		queue_free()

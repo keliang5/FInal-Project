@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://c1gc76xdtdhy1"]
+[gd_scene load_steps=9 format=3 uid="uid://c1gc76xdtdhy1"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_hm35h"]
 [ext_resource type="PackedScene" uid="uid://pbmyh1qru7p" path="res://characters/happy_boo/happy_boo.tscn" id="1_muo7b"]
 [ext_resource type="PackedScene" uid="uid://c7vvyr5e6hf7" path="res://gun.tscn" id="3_6g6rp"]
+[ext_resource type="AudioStream" uid="uid://cft5wotmij7aa" path="res://Dark Souls ' You Died ' Sound Effect.mp3" id="4_fq2cm"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ejjsg"]
 radius = 34.1321
@@ -60,3 +61,6 @@ theme_override_styles/background = SubResource("StyleBoxFlat_m2rvm")
 theme_override_styles/fill = SubResource("StyleBoxFlat_j1tbr")
 value = 100.0
 show_percentage = false
+
+[node name="Death_Noise" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_fq2cm")

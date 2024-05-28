@@ -2,6 +2,7 @@ extends CharacterBody2D
 
 signal health_depleted 
 var health= 100.0
+@onready var death_noise: AudioStreamPlayer = $Death_Noise
 
 
 func _physics_process(delta):
@@ -20,5 +21,7 @@ func _physics_process(delta):
 		health -= DAMAGE_RATE * overlapping_mobs.size() * delta
 		%ProgressBar.value = health
 	if health <= 0.0:
+		death_noise.play()
 		health_depleted.emit()
+		
 	

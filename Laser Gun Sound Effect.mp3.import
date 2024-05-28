@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://by0hobri08v3j"
+path="res://.godot/imported/Laser Gun Sound Effect.mp3-4e711cb8f1c8a89ffdc6b94bda3a4773.mp3str"
+
+[deps]
+
+source_file="res://Laser Gun Sound Effect.mp3"
+dest_files=["res://.godot/imported/Laser Gun Sound Effect.mp3-4e711cb8f1c8a89ffdc6b94bda3a4773.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

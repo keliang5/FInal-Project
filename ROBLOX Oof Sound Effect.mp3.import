@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://3v6r83xyqnea"
+path="res://.godot/imported/ROBLOX Oof Sound Effect.mp3-a942ccf0ebca52e00ede9644c4f7633a.mp3str"
+
+[deps]
+
+source_file="res://ROBLOX Oof Sound Effect.mp3"
+dest_files=["res://.godot/imported/ROBLOX Oof Sound Effect.mp3-a942ccf0ebca52e00ede9644c4f7633a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
