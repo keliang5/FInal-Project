@@ -1,24 +1,25 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1716932740
+::res://::1716933664
 Bullet.gd::GDScript::-1::1715719149::0::1::::<>Area2D<>::
 bullet.tscn::PackedScene::7932387863818844813::1715721907::0::1::::<><>::res://Bullet.gd<>uid://dftkbqwsfd68r::::res://pistol/projectile.png
-Conduit Attack (Nr. 2  Minecraft Sound) - Sound Effect for editing.mp3::AudioStreamMP3::4995647174603034789::1716932636::1716932636::1::::<><>::
-Dark Souls ' You Died ' Sound Effect.mp3::AudioStreamMP3::5164870325386893832::1716931218::1716931218::1::::<><>::
+Conduit Attack (Nr. 2  Minecraft Sound) - Sound Effect for editing.mp3::AudioStreamMP3::4995647174603034789::1716932914::1716932914::1::::<><>::
+Dark Souls ' You Died ' Sound Effect.mp3::AudioStreamMP3::5164870325386893832::1716932914::1716932914::1::::<><>::
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1695668179::0::1::::<><>::
-gun.gd::GDScript::-1::1716931766::0::1::::<>Area2D<>::
-gun.tscn::PackedScene::207751622117789470::1716932670::0::1::::<><>::res://gun.gd<>uid://cswb5do8rrj7q::::res://pistol/pistol.png<>uid://nlq8mgkk0rg4::::res://Gunshot Sound Effect.mp3
-Gunshot Sound Effect.mp3::AudioStreamMP3::936194165689951829::1716932166::1716932167::1::::<><>::
+gun.gd::GDScript::-1::1716932914::0::1::::<>Area2D<>::
+gun.tscn::PackedScene::207751622117789470::1716932914::0::1::::<><>::res://gun.gd<>uid://cswb5do8rrj7q::::res://pistol/pistol.png<>uid://nlq8mgkk0rg4::::res://Gunshot Sound Effect.mp3
+Gunshot Sound Effect.mp3::AudioStreamMP3::936194165689951829::1716932914::1716932914::1::::<><>::
 icon.png::CompressedTexture2D::621515402784007901::1695668179::1715191309::1::::<><>::
-Laser Gun Sound Effect.mp3::AudioStreamMP3::4123012474104645741::1716931806::1716931806::1::::<><>::
-mob.gd::GDScript::-1::1716932651::0::1::::<>CharacterBody2D<>::
-mob.tscn::PackedScene::3463173161659043093::1716932670::0::1::::<><>::res://mob.gd<>uid://ogik4s70pgwl::::res://characters/slime/slime.tscn<>uid://cdf6txowgory8::::res://Conduit Attack (Nr. 2  Minecraft Sound) - Sound Effect for editing.mp3
+Laser Gun Sound Effect.mp3::AudioStreamMP3::4123012474104645741::1716932914::1716932914::1::::<><>::
+mob.gd::GDScript::-1::1716932914::0::1::::<>CharacterBody2D<>::
+mob.tscn::PackedScene::3463173161659043093::1716932914::0::1::::<><>::res://mob.gd<>uid://ogik4s70pgwl::::res://characters/slime/slime.tscn<>uid://3v6r83xyqnea::::res://ROBLOX Oof Sound Effect.mp3
 pine_tree.tscn::PackedScene::6294490273450312451::1715721907::0::1::::<><>::uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://caqfk2xng5v5u::::res://trees/pine_tree.png
-player.gd::GDScript::-1::1716931432::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::6610317811806071886::1716932670::0::1::::<><>::res://player.gd<>uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>uid://c7vvyr5e6hf7::::res://gun.tscn<>uid://cft5wotmij7aa::::res://Dark Souls ' You Died ' Sound Effect.mp3
+player.gd::GDScript::-1::1716932914::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::6610317811806071886::1716932914::0::1::::<><>::res://player.gd<>uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>uid://c7vvyr5e6hf7::::res://gun.tscn<>uid://cft5wotmij7aa::::res://Dark Souls ' You Died ' Sound Effect.mp3
 README.md::TextFile::-1::1715191191::0::1::::<><>::
-ROBLOX Oof Sound Effect.mp3::AudioStreamMP3::2010553917575114908::1716932740::1716932740::1::::<><>::
-survivors_games.gd::GDScript::-1::1716932651::0::1::::<>Node2D<>::
-survivors_games.tscn::PackedScene::6335733226732595432::1716932670::0::1::::<><>::uid://c1gc76xdtdhy1::::res://player.tscn<>res://survivors_games.gd<>uid://cvxdlnpn8k2gl::::res://pine_tree.tscn
+ROBLOX Oof Sound Effect.mp3::AudioStreamMP3::2010553917575114908::1716932914::1716932914::1::::<><>::
+Slime Death.mp3::AudioStreamMP3::6334891600690228355::1716933664::1716933664::1::::<><>::
+survivors_games.gd::GDScript::-1::1716932914::0::1::::<>Node2D<>::
+survivors_games.tscn::PackedScene::6335733226732595432::1716932914::0::1::::<><>::uid://c1gc76xdtdhy1::::res://player.tscn<>res://survivors_games.gd<>uid://cvxdlnpn8k2gl::::res://pine_tree.tscn
 ::res://addons/::1695668179
 ::res://addons/colorpicker_presets/::1695668179
 colorpicker_presets.gd::GDScript::-1::1695668179::0::1::::<>EditorPlugin<>::

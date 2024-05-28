@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cwiw0eosf40qh"
+path="res://.godot/imported/Slime Death.mp3-77a0de3a49b41fcdd3abe6a5b39d62da.mp3str"
+
+[deps]
+
+source_file="res://Slime Death.mp3"
+dest_files=["res://.godot/imported/Slime Death.mp3-77a0de3a49b41fcdd3abe6a5b39d62da.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

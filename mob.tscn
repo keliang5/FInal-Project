@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://mob.gd" id="1_ptgy1"]
 [ext_resource type="PackedScene" uid="uid://ogik4s70pgwl" path="res://characters/slime/slime.tscn" id="1_wawn0"]
-[ext_resource type="AudioStream" uid="uid://3v6r83xyqnea" path="res://ROBLOX Oof Sound Effect.mp3" id="3_4d20y"]
+[ext_resource type="AudioStream" uid="uid://cwiw0eosf40qh" path="res://Slime Death.mp3" id="3_lyh1e"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_o1opd"]
 radius = 50.2494
@@ -21,5 +21,5 @@ position = Vector2(-4, -32)
 shape = SubResource("CircleShape2D_o1opd")
 
 [node name="Mob_hurt" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("3_4d20y")
-volume_db = -20.1
+stream = ExtResource("3_lyh1e")
+volume_db = 2.805
