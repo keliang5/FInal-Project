@@ -1,3 +1,8 @@
 res://survivors_games.tscn
-res://survivors_games.gd
-res://player.gd
+res://player.tscn
+res://mob.tscn
+res://coin.tscn
+res://coin.gd
+res://LootDrop.gd
+res://loot_drop.gd
+res://mob.gd

@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
 var health = 3
+var coin = preload("res://coin.tscn")
 
 @onready var player = get_node("/root/Game/Player")
 
@@ -18,6 +19,7 @@ func take_damage():
 	%Slime.play_hurt()
 	
 	if health == 0:
+		coin.instantiate()
 		queue_free()
 		
 		const SMOKE_SCENE = preload("res://smoke_explosion/smoke_explosion.tscn")

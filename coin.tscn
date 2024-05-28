@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://du6401gsyqsua"]
+
+[ext_resource type="Texture2D" uid="uid://caqfk2xng5v5u" path="res://trees/pine_tree.png" id="1_1l3c6"]
+[ext_resource type="Script" path="res://coin.gd" id="1_3m4op"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cxb6t"]
+size = Vector2(121, 160)
+
+[node name="Coin" type="RigidBody2D"]
+position = Vector2(387, 221)
+gravity_scale = 1.66533e-16
+freeze = true
+script = ExtResource("1_3m4op")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_1l3c6")
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(-82, -30)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(82, 30)
+shape = SubResource("RectangleShape2D_cxb6t")
+
+[connection signal="mouse_entered" from="Area2D" to="." method="_on_area_2d_mouse_entered"]
