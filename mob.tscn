@@ -22,4 +22,5 @@ shape = SubResource("CircleShape2D_o1opd")
 
 [node name="Mob_hurt" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_lyh1e")
-volume_db = 2.805
+volume_db = 4.469
+pitch_scale = 0.44

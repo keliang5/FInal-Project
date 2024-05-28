@@ -1,5 +1,6 @@
 extends Node2D
 
+@onready var player_death: AudioStreamPlayer = $"Player death"
 
 
 func spawn_mob():
@@ -17,6 +18,8 @@ func _on_timer_timeout():
 
 
 func _on_player_health_depleted():
+	$"Bg noise".stop()
+	player_death.play()
 	%GameOver.visible = true
 	get_tree().paused = true
 #merged
