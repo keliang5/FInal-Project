@@ -21,6 +21,7 @@ func take_damage():
 	%Slime.play_hurt()
 	
 	if health == 0:
+		Counter.set_score(score + 1)
 		queue_free()
 		
 		const coin_scene = preload("res://coin.tscn")
@@ -33,7 +34,4 @@ func take_damage():
 		get_parent().add_child(smoke)
 		smoke.global_position = global_position
 
-func _on_mouse_entered(coin) -> void:
-	score += value
-	print(score)
-	self.queue_free()
+

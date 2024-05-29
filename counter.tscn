@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://bw1gdbw07j1iw"]
+
+[ext_resource type="Script" path="res://Counter.gd" id="1_quf6l"]
+
+[node name="Counter" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_quf6l")
+
+[node name="ScoreCount" type="Label" parent="."]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 0
+offset_left = 195.0
+offset_top = 110.0
+offset_right = 272.0
+offset_bottom = 137.0
+theme_override_font_sizes/font_size = 200
+text = "0x"

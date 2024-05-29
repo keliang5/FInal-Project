@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://cwjcuojjpkltw"]
+[gd_scene load_steps=6 format=3 uid="uid://cwjcuojjpkltw"]
 
 [ext_resource type="PackedScene" uid="uid://c1gc76xdtdhy1" path="res://player.tscn" id="1_bp32l"]
 [ext_resource type="Script" path="res://survivors_games.gd" id="1_dhv7e"]
 [ext_resource type="PackedScene" uid="uid://cvxdlnpn8k2gl" path="res://pine_tree.tscn" id="2_dm7w5"]
+[ext_resource type="PackedScene" uid="uid://bw1gdbw07j1iw" path="res://counter.tscn" id="4_6cvys"]
 
 [sub_resource type="Curve2D" id="Curve2D_5ycli"]
 _data = {
@@ -91,6 +92,8 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 150
 text = "Game Over"
+
+[node name="Counter" parent="." instance=ExtResource("4_6cvys")]
 
 [connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
