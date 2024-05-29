@@ -1,8 +1,5 @@
-res://mob.tscn
 res://survivors_games.tscn
-res://player.tscn
-res://gun.tscn
-res://survivors_games.gd
-res://coin.gd
-res://coin.tscn
 res://mob.gd
+res://player.tscn
+res://mob.tscn
+res://coin.tscn

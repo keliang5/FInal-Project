@@ -21,6 +21,11 @@ func take_damage():
 	if health == 0:
 		queue_free()
 		
+		const coin_scene = preload("res://coin.tscn")
+		var coin = coin_scene.instantiate()
+		get_parent().add_child(coin)
+		coin.global_position = global_position 
+		
 		const SMOKE_SCENE = preload("res://smoke_explosion/smoke_explosion.tscn")
 		var smoke = SMOKE_SCENE.instantiate()
 		get_parent().add_child(smoke)
