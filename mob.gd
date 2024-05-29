@@ -1,5 +1,7 @@
 extends CharacterBody2D
 
+@export var value = 1
+var score = 0
 
 var health = 3
 
@@ -30,3 +32,8 @@ func take_damage():
 		var smoke = SMOKE_SCENE.instantiate()
 		get_parent().add_child(smoke)
 		smoke.global_position = global_position
+
+func _on_mouse_entered(coin) -> void:
+	score += value
+	print(score)
+	self.queue_free()

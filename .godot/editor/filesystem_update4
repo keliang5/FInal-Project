@@ -3,3 +3,5 @@ res://mob.gd
 res://player.tscn
 res://mob.tscn
 res://coin.tscn
+res://coin.gd
+res://smoke_explosion/smoke_explosion.tscn
