@@ -1,5 +1,8 @@
-AudioStreamPlayer
+Button
 Label
+VBoxContainer
+MarginContainer
+AudioStreamPlayer
 ColorRect
 CanvasLayer
 Timer
@@ -9,6 +12,3 @@ ProgressBar
 CollisionShape2D
 Area2D
 Marker2D
-Camera2D
-CharacterBody2D
-StaticBody2D

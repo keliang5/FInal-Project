@@ -1,3 +1,7 @@
+res://Menu.gd
 res://survivors_games.tscn
 res://player.tscn
 res://mob.tscn
+res://menu.tscn
+res://Options.gd
+res://options.tscn
