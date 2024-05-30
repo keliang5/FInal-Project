@@ -23,3 +23,7 @@ func _on_player_health_depleted():
 	%GameOver.visible = true
 	get_tree().paused = true
 #merged
+
+
+func _on_backto_menu_pressed():
+	get_tree().quit()

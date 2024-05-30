@@ -90,14 +90,30 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -43.5
-offset_top = -11.5
-offset_right = 43.5
-offset_bottom = 11.5
+offset_left = -406.5
+offset_top = -214.5
+offset_right = 406.5
+offset_bottom = -9.5
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 150
 text = "Game Over"
+
+[node name="BacktoMenu" type="Button" parent="GameOver"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -317.5
+offset_top = 14.5
+offset_right = 317.5
+offset_bottom = 227.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 150
+text = "Quit
+"
 
 [node name="Bg noise" type="AudioStreamPlayer" parent="."]
 process_mode = 3
@@ -112,3 +128,4 @@ volume_db = -7.283
 
 [connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="pressed" from="GameOver/BacktoMenu" to="." method="_on_backto_menu_pressed"]
