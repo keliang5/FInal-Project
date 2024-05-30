@@ -112,7 +112,7 @@ offset_bottom = 227.5
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 150
-text = "Quit
+text = "Can't Quit
 "
 
 [node name="Bg noise" type="AudioStreamPlayer" parent="."]
