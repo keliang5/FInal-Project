@@ -1,7 +1,9 @@
 res://survivors_games.tscn
-res://mob.gd
 res://player.tscn
 res://mob.tscn
-res://coin.tscn
+res://menu.tscn
+res://options.tscn
 res://counter.tscn
+res://mob.gd
+res://player.gd
 res://Counter.gd
