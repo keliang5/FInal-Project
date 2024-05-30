@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3d0k61tif6vm"]
+
+[ext_resource type="Script" path="res://Counter.gd" id="1_quf6l"]
+[ext_resource type="Texture2D" uid="uid://dvgfmy6vtvjji" path="res://characters/slime/slime_body.png" id="2_fxjnn"]
+
+[node name="Counter" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_quf6l")
+
+[node name="ScoreCount" type="Label" parent="."]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 0
+offset_left = 185.0
+offset_top = 108.0
+offset_right = 262.0
+offset_bottom = 177.0
+theme_override_font_sizes/font_size = 50
+text = "0x"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(320, 142)
+scale = Vector2(0.824074, 0.766667)
+texture = ExtResource("2_fxjnn")

@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://mob.gd" id="1_ptgy1"]
 [ext_resource type="PackedScene" uid="uid://ogik4s70pgwl" path="res://characters/slime/slime.tscn" id="1_wawn0"]
-[ext_resource type="AudioStream" uid="uid://cwiw0eosf40qh" path="res://Slime Death.mp3" id="3_lyh1e"]
+[ext_resource type="AudioStream" path="res://Slime Death.mp3" id="3_lyh1e"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_o1opd"]
 radius = 50.2494

@@ -1,5 +1,8 @@
 extends CharacterBody2D
 
+@export var value = 1
+var score = 0
+
 var health = 3
 @onready var mob_hurt: AudioStreamPlayer = $Mob_hurt
 
@@ -20,9 +23,17 @@ func take_damage():
 	mob_hurt.play()
 	
 	if health == 0:
+		Counter.set_score(score + 1)
 		queue_free()
+		
+		#const coin_scene = preload("res://coin.tscn")
+		#var coin = coin_scene.instantiate()
+		#get_parent().add_child(coin)
+		#coin.global_position = global_position 
 		
 		const SMOKE_SCENE = preload("res://smoke_explosion/smoke_explosion.tscn")
 		var smoke = SMOKE_SCENE.instantiate()
 		get_parent().add_child(smoke)
 		smoke.global_position = global_position
+
+
