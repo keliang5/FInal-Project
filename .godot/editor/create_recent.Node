@@ -1,8 +1,8 @@
+AudioStreamPlayer
 Button
 Label
 VBoxContainer
 MarginContainer
-AudioStreamPlayer
 ColorRect
 CanvasLayer
 Timer

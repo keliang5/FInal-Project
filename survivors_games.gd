@@ -18,8 +18,7 @@ func _on_timer_timeout():
 
 
 func _on_player_health_depleted():
-	$"Bg noise".stop()
-	player_death.play()
+	$"Bg music".stop()
 	%GameOver.visible = true
 	get_tree().paused = true
 #merged

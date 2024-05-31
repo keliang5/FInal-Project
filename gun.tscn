@@ -31,7 +31,7 @@ unique_name_in_owner = true
 position = Vector2(26.6256, -8.61775)
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 0.3
+wait_time = 0.1
 autostart = true
 
 [node name="GunNoise" type="AudioStreamPlayer" parent="."]

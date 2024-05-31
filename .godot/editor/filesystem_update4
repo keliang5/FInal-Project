@@ -3,3 +3,7 @@ res://player.tscn
 res://mob.tscn
 res://menu.tscn
 res://options.tscn
+res://counter.tscn
+res://survivors_games.gd
+res://gun.tscn
+res://player.gd
